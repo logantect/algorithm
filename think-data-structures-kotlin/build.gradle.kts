@@ -4,7 +4,7 @@ plugins {
     kotlin("jvm") version "1.7.10"
 }
 
-group = "org.example"
+group = "io.thinkdast"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -13,6 +13,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    testImplementation("org.assertj:assertj-core:3.23.1")
 }
 
 tasks.test {
