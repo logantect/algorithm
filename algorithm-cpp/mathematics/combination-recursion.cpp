@@ -8,7 +8,7 @@ int a[] = {1, 2, 3, 4, 5};
 
 void print(vector<int> b) {
     for(int i : b) {
-        cout << i << " ";
+        cout << a[i] << " ";
     }
     cout << "\n";
 }
